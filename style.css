@@ -1,0 +1,306 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  padding: 0px;
+  margin: 0px;
+  overflow-x: hidden;
+  user-select: none;
+  /* supported by Chrome and Opera */
+  -webkit-user-select: none;
+  /* Safari */
+  -khtml-user-select: none;
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+}
+
+:root {
+  --first-color: #6488E6;
+  --secondary-color: #3264EA;
+  --third-color: #AFC1EF;
+  --background-color: #F6F3EC;
+}
+
+/* background */
+.bg-first-custom {
+  background-color: var(--first-color);
+}
+
+.bg-secondary-custom {
+  background-color: var(--secondary-color);
+}
+
+.bg-third-custom {
+  background-color: var(--third-color);
+}
+
+.bg-background-custom {
+  background-color: var(--background-color);
+}
+
+/* text */
+.text-first-custom {
+  color: var(--first-color);
+}
+
+.text-secondary-custom {
+  color: var(--secondary-color);
+}
+
+.text-third-custom {
+  color: var(--third-color);
+}
+
+.text-background-custom {
+  color: var(--background-color);
+}
+
+.text-4{
+  font-size: 2.5vh!important;
+}
+
+.text-5{
+  font-size: 2.25vh!important;
+}
+
+.text-6{
+  font-size: 1.75vh!important;
+}
+
+.button_custom{
+  background-color: white;
+  color: black;
+  border-radius: 20px;
+  width: 60vw;
+}
+
+.button_custom2{
+  background-color: var(--first-color);
+  color: white;
+  border-radius: 20px;
+  width: 60vw;
+}
+
+.button_custom2:active{
+  background-color: var(--secondary-color);
+  color: white;
+}
+
+.button_custom:active{
+  background-color: var(--secondary-color);
+  color: white;
+}
+
+.pallino-active {
+  opacity: 100% !important;
+}
+
+.pallino_navbar {
+  width: 20px;
+  height: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  opacity: 50%;
+}
+
+.navbar-mobile {
+  transform: translateX(-20px)scale(0.8);
+  display: none;
+}
+
+/* header */
+.logo_bugsy_header {
+  height: 40vh;
+}
+
+.card_container {
+  padding-left: 10vw !important;
+  padding-right: 10vw !important;
+  margin-top: -50px !important;
+  margin-bottom: 50px !important;
+}
+
+.viola_container {
+  padding-left: 8vw !important;
+  padding-right: 8vw !important;
+  padding-bottom: 50px !important;
+  padding-top: 50px !important;
+}
+
+.team_container {
+  padding-left: 8vw !important;
+  padding-right: 8vw !important;
+  padding-bottom: 50px !important;
+  padding-top: 150px !important;
+  margin-top: -150px;
+  /* height:100vh; */
+}
+
+.test_container {
+  padding-left: 8vw !important;
+  padding-right: 8vw !important;
+  padding-bottom: 50px !important;
+  padding-top: 50px !important;
+  height: 100vh;
+}
+
+.pulsanti_download {
+  width: 35%;
+}
+
+.transparent {
+  background-color: rgb(0, 0, 0, 0) !important;
+}
+
+.img-come-funziona {
+  width: 70%;
+  margin-top: 50px !important;
+}
+
+.no_mobile {
+  display: none !important;
+}
+
+/* background */
+.sleep_background {
+  background-image: url("assets/grafico_sonno.png");
+  /* The image used */
+  background-position: top;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+  /* Resize the background image to cover the entire container */
+  padding-left: 8vw !important;
+  padding-right: 8vw !important;
+}
+
+@media only screen and (max-width 768px) {
+  /* telefono */
+}
+
+@media only screen and (min-width: 900px) {
+
+  .text-4{
+    font-size: 1.75vw!important;
+    /* color: red; */
+  }
+
+  .text-5{
+    font-size: 1.5vw!important;
+    /* color: red; */
+  }
+
+  .text-6{
+    font-size: 1.25vw!important;
+    /* color: red; */
+  }
+
+  .button_custom{
+    width: 30vw;
+  }
+
+
+  .button_custom:hover{
+    background-color: var(--secondary-color);
+    color: white;
+  }
+
+  .button_custom2{
+    width: 30vw;
+  }
+
+
+  .button_custom2:hover{
+    background-color: var(--secondary-color);
+    color: white;
+  }
+
+
+  /* desktop */
+  .navbar-mobile {
+    transform: translateX(0px)scale(1);
+    display: block;
+  }
+
+  .pallino_navbar:hover {
+    opacity: 100%;
+  }
+
+  #pallino-1:hover>.pallino-hover-1:after {
+    content: "Intro";
+    opacity: 100%;
+  }
+
+  #pallino-2:hover>.pallino-hover-2:after {
+    content: "Abitudini";
+    opacity: 100%;
+  }
+
+  #pallino-3:hover>.pallino-hover-3:after {
+    content: "Condivisione";
+    opacity: 100%;
+  }
+
+  #pallino-4:hover>.pallino-hover-4:after {
+    content: "Team";
+    opacity: 100%;
+  }
+
+  #pallino-5:hover>.pallino-hover-5:after {
+    content: "Tecnologie";
+    opacity: 100%;
+  }
+
+  /* header */
+  .logo_bugsy_header {
+    height: 50vh;
+  }
+
+  .card_container {
+    padding-left: 15vw !important;
+    padding-right: 15vw !important;
+    margin-top: -70px !important;
+  }
+
+  .viola_container {
+    padding-left: 10vw !important;
+    padding-right: 10vw !important;
+    padding-bottom: 50px !important;
+    padding-top: 50px !important;
+    /* height:100vh; */
+  }
+
+  .test_container {
+    padding-left: 10vw !important;
+    padding-right: 10vw !important;
+    padding-bottom: 50px !important;
+    padding-top: 50px !important;
+    height:100vh;
+  }
+
+  .team_container {
+    padding-left: 10vw !important;
+    padding-right: 10vw !important;
+    margin-top: -150px;
+    /* height:100vh; */
+  }
+
+  .pulsanti_download {
+    width: 25%;
+  }
+
+  .img-come-funziona {
+    width: 70%;
+    margin-top: 0px !important;
+  }
+
+  .no_desktop {
+    display: none !important;
+  }
+
+  .no_mobile {
+    display: block !important;
+  }
+}
