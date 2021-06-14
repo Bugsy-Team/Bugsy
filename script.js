@@ -11,6 +11,14 @@ var cinque = ($('#cinque').offset().top) - container;
 console.log(tre);
 
 
+$(".pulsanti_download").each(function(x) {
+  $(this).click(function() {
+  window.open("https://www.figma.com/file/FE3GzVQuCEGBjI5XK9teec/Bugsy-app?node-id=0%3A1");
+  console.log("open");
+})
+})
+
+
 $(document).on('scroll', function() {
 
 

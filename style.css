@@ -20,6 +20,7 @@ body {
   --secondary-color: #3264EA;
   --third-color: #AFC1EF;
   --background-color: #F6F3EC;
+  --gray1: #333333;
 }
 
 /* background */
@@ -54,6 +55,10 @@ body {
 
 .text-background-custom {
   color: var(--background-color);
+}
+
+.text-gray1{
+  color: var(--gray1);
 }
 
 .text-1{
@@ -159,6 +164,8 @@ body {
 
 .pulsanti_download {
   width: 35%;
+  z-index: 2;
+  cursor: pointer;
 }
 
 .transparent {
@@ -243,6 +250,10 @@ body {
 .menu_mobile:focus{
 border: 0px solid red!important;
 box-shadow: 0 0 0 0!important;
+}
+
+.border_card{
+  border-radius: 30px;
 }
 
 
@@ -344,13 +355,13 @@ box-shadow: 0 0 0 0!important;
 
   /* header */
   .logo_bugsy_header {
-    height: 50vh;
+    height: 35vh;
   }
 
   .card_container {
     padding-left: 15vw !important;
     padding-right: 15vw !important;
-    margin-top: -70px !important;
+    margin-top: -150px !important;
   }
 
   .viola_container {
@@ -392,5 +403,10 @@ box-shadow: 0 0 0 0!important;
 
   .no_mobile {
     display: block !important;
+  }
+
+
+  .margin_bottom_high{
+    margin-bottom: 130px;
   }
 }
