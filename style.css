@@ -137,9 +137,9 @@ body {
 
 /* background */
 .hero {
-  background-image: url("assets/hero_02.jpg");
+  background-image: url("assets/hero_03_mobile.png");
   /* The image used */
-  background-position: right;
+  background-position: center;
   /* Center the image */
   background-repeat: no-repeat;
   /* Do not repeat the image */
@@ -219,7 +219,9 @@ body {
 .sfondo_1{
   background-image: url("assets/Background_light.png");
   background-repeat: no-repeat;
-  width: 100vw;
+  width: 110vw;
+  transform: translate(-50%, 0);
+  margin-left:50%;
    /* background-position: -50px!important; */
    background-size: cover;
 
@@ -229,6 +231,9 @@ body {
   background-image: url("assets/background_dark.png");
   background-repeat: no-repeat;
   width: 100vw;
+  width: 110vw;
+  transform: translate(-50%, 0);
+  margin-left:50%;
    /* background-position: -50px!important; */
    background-size: cover;
 
@@ -301,7 +306,7 @@ box-shadow: 0 0 0 0!important;
 
   /* background */
   .hero {
-    background-image: url("assets/hero_02.jpg");
+    background-image: url("assets/hero_03.png");
     /* The image used */
     background-position: center;
     /* Center the image */
@@ -318,6 +323,7 @@ box-shadow: 0 0 0 0!important;
     display: flex!important;
     background-color: #AFC1EF;
     transition: 0.3;
+    color:white;
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.15);
   }
 
@@ -325,13 +331,20 @@ box-shadow: 0 0 0 0!important;
     display: flex!important;
     background-color: rgba(255, 255, 255, 0);
     transition: 0.3;
+        color:var(--secondary-color)!important;
         box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0);
+        cursor: pointer;
+        text-decoration: none;
   }
 
   .header_display_text{
     cursor: pointer;
     color: white;
     text-decoration: none;
+  }
+
+  .color_white{
+
   }
 
 

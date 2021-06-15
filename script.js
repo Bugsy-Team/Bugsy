@@ -24,6 +24,8 @@ $(document).on('scroll', function() {
   if ($(window).scrollTop() > (container)) {
     $("#header").addClass('menu_desktop');
     $("#header").removeClass('menu_desktop_top');
+
+
   } else{
     $("#header").addClass('menu_desktop_top');
     $("#header").removeClass('menu_desktop');
