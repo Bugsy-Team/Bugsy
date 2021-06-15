@@ -180,11 +180,11 @@ body {
 }
 
 .pulsanti_download_bianco {
-  width: 70%;
+  width: 50%;
   z-index: 2;
   cursor: pointer;
-  margin-top: -50px;
-  margin-bottom: -50px;
+  margin-top: -15%!important;
+  margin-bottom: -15%!important;
 }
 
 .transparent {
@@ -291,7 +291,7 @@ body {
 /* ---------------------  DESKTOP  -------------------------------------------- */
 @media only screen and (min-width: 1024px) {
   .hero {
-    background-image: url("assets/hero_03.png");
+    background-image: url("assets/hero_03b.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
