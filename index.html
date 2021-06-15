@@ -5,7 +5,7 @@
 
   <!-- Required meta tags -->
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="viewport" width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0>
 
   <!-- Bootstrap CSS -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -17,10 +17,24 @@
   <title>Bugsy</title>
 </head>
 
-<body style="overflow-x: hidden;">
+<body style="overflow-x: hidden; style: 100vw;">
 
-  <!-- navbar desktop -->
-  <div class="row position-fixed" style="width: 100vw; height: 100vh">
+  <!-- header desktop -->
+<div id="header" class="row position-fixed px-0 menu_desktop_top" style="width: 100vw;  z-index: 3;">
+  <div class="col-3 p-5 py-2  d-flex justify-content-center align-items-center">
+      <img src="assets/logo_white.png" style="width: 70px;">
+  </div>
+        <div class="col-9 p-5 py-3 text-white d-flex justify-content-end align-items-center fs-6">
+          <span class="mx-3"> <a href="#cosa_Bugsy" class="header_display_text"> Cos'è Bugsy </a></span>
+          <span class="mx-3"> <a href="#come_funziona" class="header_display_text"> Come funziona </a> </span>
+          <span class="mx-3"> <a href="#tecnologie" class="header_display_text"> Tecnologie </a> </span>
+          <span class="mx-3"> <a href="#team" class="header_display_text"> Team </a></span>
+          <span class="mx-3"> <a href="#video" class="header_display_text"> Video </a> </span>
+          <a href="https://www.figma.com/file/FE3GzVQuCEGBjI5XK9teec/Bugsy-app?node-id=0%3A1" target="_blank" class="header_display_text"> <span class="mx-3 border border-white border-2 p-2 rounded-3 header_display_button"> Visita l'app</span> </a>
+        </div>
+</div>
+
+  <!-- <div class="row position-fixed" style="width: 100vw; height: 100vh">
     <div class="col d-flex align-items-center text-uppercase">
       <div class="ms-5 navbar-mobile" style="width: 50px;">
         <a href="#uno" class="text-decoration-none">
@@ -50,7 +64,7 @@
         </a>
       </div>
     </div>
-  </div>
+  </div> -->
 
 
   <!-- navbar mobile -->
@@ -68,35 +82,42 @@
       <div class="col-12 p-4 menu_open_content d-flex align-items-center border justify-content-center">
         <ul class="list-group border-0 align-self-center text-center">
 
-          <a href="#uno" class="text-decoration-none">
+          <a href="#cosa_Bugsy" class="text-decoration-none">
             <li class="list-group-item bg-transparent border-0">
-              <span class="text-white h4 text-center">Intro</span>
+              <span class="text-white h4 text-center">Cos'è Bugsy</span>
             </li>
           </a>
 
-          <a href="#due" class="text-decoration-none">
+          <a href="#come_funziona" class="text-decoration-none">
             <li class="list-group-item bg-transparent border-0">
-              <span class="text-white h4 text-center">Abitudini</span>
+              <span class="text-white h4 text-center">Come funziona</span>
             </li>
           </a>
 
-          <a href="#tre" class="text-decoration-none">
+          <a href="#tecnologie" class="text-decoration-none">
             <li class="list-group-item bg-transparent border-0">
-              <span class="text-white h4 text-center">Condivisione</span>
+              <span class="text-white h4 text-center">Tecnologie</span>
             </li>
           </a>
 
-          <a href="#quattro" class="text-decoration-none">
+          <a href="#team" class="text-decoration-none">
             <li class="list-group-item bg-transparent border-0">
               <span class="text-white h4 text-center">Team</span>
             </li>
           </a>
 
-          <a href="#cinque" class="text-decoration-none">
+          <a href="#video" class="text-decoration-none">
             <li class="list-group-item bg-transparent border-0">
-              <span class="text-white h4 text-center">Tecnologie</span>
+              <span class="text-white h4 text-center">Video</span>
             </li>
           </a>
+
+          <a href="#cinque" class="text-decoration-none">
+            <li class="list-group-item bg-transparent border-0">
+              <span class="text-white h4 text-center">Visita l'app</span>
+            </li>
+          </a>
+
         </ul>
       </div>
     </div>
@@ -105,21 +126,26 @@
 
 
   <!-- Hero -->
-  <div class="sfondo_1">
+    <div class="sfondo_1 p-0">
 
-
-
-    <div id="uno" class="row" style="height: 60vh">
-      <div class="col p-5 d-flex justify-content-center">
-        <div class="d-flex align-items-center justify-content-center">
-          <img src="assets/logo_insetti_desktop.png" class="logo_bugsy_header">
-        </div>
+  <div id="hero" class="row hero pb-5 mb-5" style="height: 100vh">
+    <div class="col p-5 d-flex justify-content-center">
+      <div class="d-flex align-items-center justify-content-center">
+        <img src="assets/logo_insetti_desktop.png" class="logo_bugsy_header">
       </div>
     </div>
+  </div>
 
-    <!-- Intro -->
 
-    <div id="" class="row pb-5">
+
+
+
+
+
+
+    <!-- Cos'è Bugsy -->
+
+    <div id="cosa_Bugsy" class="row mt-5 pt-5 pb-5">
       <div class="col-xl-3 col-md-2"></div>
       <div class="col-xl-6 col-md-8 col-sm-12 px-2">
         <h1 class="text-2 text-secondary-custom text-center"><strong>Meno stress, più cura</strong></h1>
@@ -170,7 +196,7 @@
 
   <!-- Come funziona -->
 
-  <div id="due" class="row" style="height: 90vh">
+  <div id="come_funziona" class="row" style="height: 90vh">
     <div class="col-xl-3 col-md-2"></div>
     <div class="d-flex align-items-center justify-content-center">
       <div class="col-xl-6 col-md-8 col-sm-12 px-2">
@@ -312,7 +338,7 @@
 
   <!-- condividi -->
 
-  <div id="tre" class="row mt-5">
+  <div class="row mt-5">
     <div class="col-xl-3 col-md-2 "></div>
     <div class="d-flex align-items-center justify-content-center">
       <div class="col-xl-6 col-md-8 col-sm-12 px-2">
@@ -508,7 +534,7 @@
 
   <!-- Tecnologie -->
 
-  <div id="cinque" class="row mt-5">
+  <div id="tecnologie" class="row mt-5">
     <div class="col-xl-3 col-md-2 mt-5"></div>
     <div class="d-flex align-items-center justify-content-center">
       <div class="col-xl-6 col-md-8 col-sm-12 px-2">
@@ -589,7 +615,7 @@
 
   <!-- Tips -->
 
-  <div id="tre" class="row mt-5" style="z-index:2">
+  <div id="video" class="row mt-5" style="z-index:2">
     <div class="col-xl-3 col-md-1 "></div>
     <div class="d-flex align-items-center justify-content-center">
       <div class="col-xl-6 col-md-8 col-sm-12 px-2">

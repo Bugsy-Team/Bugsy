@@ -126,6 +126,21 @@ body {
   display: none;
 }
 
+.menu_desktop{
+  display: none!important;
+}
+
+/* background */
+.hero {
+  background-image: url("assets/Bugsy-app.png");
+  /* The image used */
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+}
+
 /* header */
 .logo_bugsy_header {
   height: 30vh;
@@ -282,6 +297,42 @@ box-shadow: 0 0 0 0!important;
   .border_card{
     border-radius: 20px;
   }
+
+  .menu_desktop{
+    display: flex!important;
+    background-color: #AFC1EF;
+    transition: 0.3;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.15);
+  }
+
+  .menu_desktop_top{
+    display: flex!important;
+    background-color: rgba(255, 255, 255, 0);
+    transition: 0.3;
+        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0);
+  }
+
+  .header_display_text{
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+  }
+
+
+  .header_display_text:hover{
+    cursor: pointer;
+    color: var(--secondary-color);
+    transition: 0.3s;
+  }
+
+  .header_display_button:hover{
+    cursor: pointer;
+    background-color: var(--secondary-color);
+    color: white!important;
+    transition: 0.3s;
+    border: 2px solid  var(--secondary-color)!important;
+  }
+
 
   .menu_mobile{
     display: none;
