@@ -4,15 +4,10 @@ body {
   margin: 0px;
   overflow-x: hidden;
   user-select: none;
-  /* supported by Chrome and Opera */
   -webkit-user-select: none;
-  /* Safari */
   -khtml-user-select: none;
-  /* Konqueror HTML */
   -moz-user-select: none;
-  /* Firefox */
   -ms-user-select: none;
-  /* Internet Explorer/Edge */
 }
 
 :root {
@@ -57,54 +52,54 @@ body {
   color: var(--background-color);
 }
 
-.text-gray1{
+.text-gray1 {
   color: var(--gray1);
 }
 
-.text-1{
-  font-size: 3.25vh!important;
+.text-1 {
+  font-size: 3.25vh !important;
 }
 
-.text-2{
-  font-size: 3vh!important;
+.text-2 {
+  font-size: 3vh !important;
 }
 
-.text-3{
-  font-size: 2.75vh!important;
+.text-3 {
+  font-size: 2.75vh !important;
 }
 
-.text-4{
-  font-size: 2.5vh!important;
+.text-4 {
+  font-size: 2.5vh !important;
 }
 
-.text-5{
-  font-size: 2.25vh!important;
+.text-5 {
+  font-size: 2.25vh !important;
 }
 
-.text-6{
-  font-size: 1.75vh!important;
+.text-6 {
+  font-size: 1.75vh !important;
 }
 
-.button_custom{
+.button_custom {
   background-color: white;
   color: black;
   border-radius: 20px;
   width: 60vw;
 }
 
-.button_custom2{
+.button_custom2 {
   background-color: var(--first-color);
   color: white;
   border-radius: 20px;
   width: 60vw;
 }
 
-.button_custom2:active{
+.button_custom2:active {
   background-color: var(--secondary-color);
   color: white;
 }
 
-.button_custom:active{
+.button_custom:active {
   background-color: var(--secondary-color);
   color: white;
 }
@@ -126,29 +121,25 @@ body {
   display: none;
 }
 
-.menu_desktop{
-  display: none!important;
+.menu_desktop {
+  display: none !important;
 }
 
-.menu_desktop_top{
-  display: none!important;
+.menu_desktop_top {
+  display: none !important;
 }
-
 
 /* background */
 .hero {
-  background-image: url("assets/hero_03_mobile.png");
-  /* The image used */
+  background-image: url("assets/sito_MOBILE-02.png");
   background-position: center;
-  /* Center the image */
   background-repeat: no-repeat;
-  /* Do not repeat the image */
   background-size: cover;
 }
 
 /* header */
 .logo_bugsy_header {
-  height: 20vh;
+  height: 15vh;
 }
 
 .card_container {
@@ -171,7 +162,6 @@ body {
   padding-bottom: 50px !important;
   padding-top: 150px !important;
   margin-top: -150px;
-  /* height:100vh; */
 }
 
 .test_container {
@@ -183,9 +173,18 @@ body {
 }
 
 .pulsanti_download {
-  width: 35%;
+  width: 40%;
   z-index: 2;
   cursor: pointer;
+  margin: -30px 5px !important;
+}
+
+.pulsanti_download_bianco {
+  width: 70%;
+  z-index: 2;
+  cursor: pointer;
+  margin-top: -50px;
+  margin-bottom: -50px;
 }
 
 .transparent {
@@ -205,218 +204,194 @@ body {
 /* background */
 .sleep_background {
   background-image: url("assets/grafico_sonno.png");
-  /* The image used */
   background-position: top;
-  /* Center the image */
   background-repeat: no-repeat;
-  /* Do not repeat the image */
   background-size: cover;
-  /* Resize the background image to cover the entire container */
   padding-left: 8vw !important;
   padding-right: 8vw !important;
 }
 
-.sfondo_1{
+.sfondo_1 {
   background-image: url("assets/Background_light.png");
   background-repeat: no-repeat;
   width: 110vw;
   transform: translate(-50%, 0);
-  margin-left:50%;
-   /* background-position: -50px!important; */
-   background-size: cover;
-
+  margin-left: 50%;
+  background-size: cover;
 }
 
-.sfondo_2{
+.sfondo_2 {
   background-image: url("assets/background_dark.png");
   background-repeat: no-repeat;
   width: 100vw;
   width: 110vw;
   transform: translate(-50%, 0);
-  margin-left:50%;
-   /* background-position: -50px!important; */
-   background-size: cover;
-
+  margin-left: 50%;
+  background-size: cover;
 }
 
-.menu_open{
-   top:0px;
-    position: fixed;
-    z-index: 4;
+.menu_open {
+  top: 0px;
+  position: fixed;
+  z-index: 4;
 }
 
-.menu_open_content{
+.menu_open_content {
   width: 105vw;
   height: 105vh;
   background-color: rgba(100, 136, 230, 0.8);
-  margin:0px!important;
+  margin: 0px !important;
 }
 
-.fixed{
-    position: fixed;
-      z-index: 5;
+.fixed {
+  position: fixed;
+  z-index: 5;
 }
 
-.menu_mobile{
+.menu_mobile {
   position: fixed;
   width: 100px;
   height: 100px;
   background-image: url("assets/menu.png");
   background-repeat: no-repeat;
-   background-position: center center;
-   background-size: contain;
-   opacity: 1;
+  background-position: center center;
+  background-size: contain;
+  opacity: 1;
   z-index: 5;
   transform: translate(0, 50%);
-  right:30px;
-  border-color: rgba(255, 255, 255, 0)!important;
+  right: 30px;
+  border-color: rgba(255, 255, 255, 0) !important;
 }
 
-.menu_mobile:focus{
-border: 0px solid red!important;
-box-shadow: 0 0 0 0!important;
+.menu_mobile:focus {
+  border: 0px solid red !important;
+  box-shadow: 0 0 0 0 !important;
 }
 
-.border_card{
+.border_card {
   border-radius: 10px;
 }
 
-.background_vector_01{
+.background_vector_01 {
   background-image: url("assets/vector_video_01.png");
   background-repeat: no-repeat;
-   background-position: center center;
-   background-size: contain;
-   border
+  background-position: center center;
+  background-size: contain;
+  border
 }
 
-.background_vector_02{
+.background_vector_02 {
   background-image: url("assets/vector_video_02.png");
   background-repeat: no-repeat;
-   background-position: center center;
-   background-size: contain;
-   border
+  background-position: center center;
+  background-size: contain;
+  border
 }
 
-
-@media only screen and (max-width 768px) {
-  /* telefono */
-}
-
-@media only screen and (min-width: 900px) {
-
-  /* background */
+/* ---------------------  DESKTOP  -------------------------------------------- */
+@media only screen and (min-width: 1024px) {
   .hero {
     background-image: url("assets/hero_03.png");
-    /* The image used */
     background-position: center;
-    /* Center the image */
     background-repeat: no-repeat;
-    /* Do not repeat the image */
     background-size: cover;
   }
 
-  .border_card{
+  .border_card {
     border-radius: 20px;
   }
 
-  .menu_desktop{
-    display: flex!important;
+  .menu_desktop {
+    display: flex !important;
     background-color: #AFC1EF;
     transition: 0.3;
-    color:white;
+    color: white;
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.15);
   }
 
-  .menu_desktop_top{
-    display: flex!important;
+  .menu_desktop_top {
+    display: flex !important;
     background-color: rgba(255, 255, 255, 0);
     transition: 0.3;
-        color:var(--secondary-color)!important;
-        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0);
-        cursor: pointer;
-        text-decoration: none;
+    color: var(--secondary-color) !important;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0);
+    cursor: pointer;
+    text-decoration: none;
   }
 
-  .header_display_text{
+  .header_display_text {
     cursor: pointer;
     color: white;
     text-decoration: none;
   }
 
-  .color_white{
+  .color_white {}
 
-  }
-
-
-  .header_display_text:hover{
+  .header_display_text:hover {
     cursor: pointer;
     color: var(--secondary-color);
     transition: 0.3s;
   }
 
-  .header_display_button:hover{
+  .header_display_button:hover {
     cursor: pointer;
     background-color: var(--secondary-color);
-    color: white!important;
+    color: white !important;
     transition: 0.3s;
-    border: 2px solid  var(--secondary-color)!important;
+    border: 2px solid var(--secondary-color) !important;
   }
 
-
-  .menu_mobile{
+  .menu_mobile {
     display: none;
   }
 
-  .text-1{
-    font-size: 2.5vw!important;
+  .text-1 {
+    font-size: 2.5vw !important;
     /* color: red; */
   }
 
-  .text-2{
-    font-size: 2.25vw!important;
+  .text-2 {
+    font-size: 2.25vw !important;
     /* color: red; */
   }
 
-  .text-3{
-    font-size: 2vw!important;
+  .text-3 {
+    font-size: 2vw !important;
     /* color: red; */
   }
 
-  .text-4{
-    font-size: 1.75vw!important;
+  .text-4 {
+    font-size: 1.75vw !important;
     /* color: red; */
   }
 
-  .text-5{
-    font-size: 1.5vw!important;
+  .text-5 {
+    font-size: 1.5vw !important;
     /* color: red; */
   }
 
-  .text-6{
-    font-size: 1.25vw!important;
+  .text-6 {
+    font-size: 1.25vw !important;
     /* color: red; */
   }
 
-  .button_custom{
+  .button_custom {
     width: 30vw;
   }
 
-
-  .button_custom:hover{
+  .button_custom:hover {
     background-color: var(--secondary-color);
     color: white;
   }
 
-  .button_custom2{
+  .button_custom2 {
     width: 30vw;
   }
 
-
-  .button_custom2:hover{
+  .button_custom2:hover {
     background-color: var(--secondary-color);
     color: white;
   }
-
 
   /* desktop */
   .navbar-mobile {
@@ -424,38 +399,9 @@ box-shadow: 0 0 0 0!important;
     display: block;
   }
 
-  .pallino_navbar:hover {
-    opacity: 100%;
-  }
-
-  #pallino-1:hover>.pallino-hover-1:after {
-    content: "Intro";
-    opacity: 100%;
-  }
-
-  #pallino-2:hover>.pallino-hover-2:after {
-    content: "Abitudini";
-    opacity: 100%;
-  }
-
-  #pallino-3:hover>.pallino-hover-3:after {
-    content: "Condivisione";
-    opacity: 100%;
-  }
-
-  #pallino-4:hover>.pallino-hover-4:after {
-    content: "Team";
-    opacity: 100%;
-  }
-
-  #pallino-5:hover>.pallino-hover-5:after {
-    content: "Tecnologie";
-    opacity: 100%;
-  }
-
   /* header */
   .logo_bugsy_header {
-    height: 20vh;
+    height: 10vw;
   }
 
   .card_container {
@@ -477,7 +423,7 @@ box-shadow: 0 0 0 0!important;
     padding-right: 10vw !important;
     padding-bottom: 50px !important;
     padding-top: 50px !important;
-    height:100vh;
+    height: 100vh;
   }
 
   .team_container {
@@ -489,6 +435,28 @@ box-shadow: 0 0 0 0!important;
 
   .pulsanti_download {
     width: 25%;
+    cursor: pointer;
+  }
+
+  .pulsanti_download_bianco {
+    width: 25%;
+    cursor: pointer;
+  }
+
+  .pulsanti_download:hover {
+    background-image: url("assets/vector_video_01.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    transition: 0.3s;
+  }
+
+  .pulsanti_download_bianco:hover {
+    background-image: url("assets/vector.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    transition: 0.3s;
   }
 
   .img-come-funziona {
@@ -505,10 +473,7 @@ box-shadow: 0 0 0 0!important;
     display: block !important;
   }
 
-
-  .margin_bottom_high{
+  .margin_bottom_high {
     margin-bottom: 130px;
   }
-
-
 }

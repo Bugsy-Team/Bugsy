@@ -147,24 +147,18 @@ background-color: white!important;
     width: 18vw;
     height: 28vh;
     margin: 5px;
-    /* padding: 10px; */
-    /* border: 1px solid black; */
     background-color: white;
     cursor: pointer;
     border-radius: 20px;
-    /* font-size: 1.35rem !important; */
   }
 
   .attitudini_container{
     width: 18vw;
     height: 28vh;
     margin: 5px;
-    /* padding: 10px; */
-    /* border: 1px solid black; */
     background-color: white;
     cursor: pointer;
     border-radius: 20px;
-    /* font-size: 1.35rem !important; */
   }
 
   .lavoro_container:hover{
