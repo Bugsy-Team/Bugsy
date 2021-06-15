@@ -130,11 +130,16 @@ body {
   display: none!important;
 }
 
+.menu_desktop_top{
+  display: none!important;
+}
+
+
 /* background */
 .hero {
-  background-image: url("assets/Bugsy-app.png");
+  background-image: url("assets/hero_02.jpg");
   /* The image used */
-  background-position: center;
+  background-position: right;
   /* Center the image */
   background-repeat: no-repeat;
   /* Do not repeat the image */
@@ -143,7 +148,7 @@ body {
 
 /* header */
 .logo_bugsy_header {
-  height: 30vh;
+  height: 20vh;
 }
 
 .card_container {
@@ -294,6 +299,17 @@ box-shadow: 0 0 0 0!important;
 
 @media only screen and (min-width: 900px) {
 
+  /* background */
+  .hero {
+    background-image: url("assets/hero_02.jpg");
+    /* The image used */
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+  }
+
   .border_card{
     border-radius: 20px;
   }
@@ -426,7 +442,7 @@ box-shadow: 0 0 0 0!important;
 
   /* header */
   .logo_bugsy_header {
-    height: 35vh;
+    height: 20vh;
   }
 
   .card_container {
