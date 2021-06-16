@@ -179,11 +179,18 @@ body {
   margin: -30px 5px !important;
 }
 
+.pulsanti_app {
+  width: 20%;
+  z-index: 2;
+  cursor: pointer;
+  margin: -30px 10px !important;
+}
+
 .pulsanti_download_bianco {
   width: 50%;
   z-index: 2;
   cursor: pointer;
-  margin-top: -15%!important;
+  margin-top: -10%!important;
   margin-bottom: -15%!important;
 }
 
@@ -272,18 +279,25 @@ body {
   border-radius: 10px;
 }
 
-.background_Vector_01 {
+.background_vector_01 {
   background-image: url("assets/Vector_video_01.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+
+.background_vector_02 {
+  background-image: url("assets/Vector_video_02.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
   border
 }
 
-.background_Vector_02 {
+.sfondo_bolla {
   background-image: url("assets/Vector_video_02.png");
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: 150px -50px;
   background-size: contain;
   border
 }
@@ -437,6 +451,12 @@ body {
     width: 25%;
     cursor: pointer;
   }
+  .pulsanti_app {
+    width: 10%;
+    z-index: 2;
+    cursor: pointer;
+    margin: -30px 10px !important;
+  }
 
   .pulsanti_download_bianco {
     width: 25%;
@@ -458,6 +478,15 @@ body {
     background-size: 70%;
     transition: 0.3s;
   }
+
+  .pulsanti_app:hover {
+    background-image: url("assets/Vector_video_01.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 90%;
+    transition: 0.3s;
+  }
+
 
   .img-come-funziona {
     width: 90%;
