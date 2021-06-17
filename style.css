@@ -174,7 +174,14 @@ body {
 
 .pulsanti_download {
   width: 40%;
-  z-index: 2;
+  /* z-index: 2; */
+  cursor: pointer;
+  margin: -30px 5px !important;
+}
+
+.pulsanti_download_test {
+  width: 40%;
+  /* z-index: 2; */
   cursor: pointer;
   margin: -30px 5px !important;
 }
@@ -451,6 +458,12 @@ body {
     width: 25%;
     cursor: pointer;
   }
+
+  .pulsanti_download_test {
+    width: 25%;
+    cursor: pointer;
+  }
+
   .pulsanti_app {
     width: 3%;
     z-index: 2;
@@ -479,6 +492,15 @@ body {
     background-size: 70%;
     transition: 0.3s;
   }
+
+
+    .pulsanti_download_test:hover {
+      background-image: url("assets/Vector.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 70%;
+      transition: 0.3s;
+    }
 
   .app_hover:hover {
     background-image: url("assets/Vector_video_01.png");
